@@ -1,0 +1,91 @@
+/* ----------------------------
+  ページ全体
+ ---------------------------- */
+.app {
+  padding-top: 120px;
+}
+
+/* ----------------------------
+  記事
+ ---------------------------- */
+.page-list .grid li {
+  height: auto;
+}
+
+/* ----------------------------
+  Navigation
+ ---------------------------- */
+.user-menu li a.highlight {
+  color: #086776;
+  border-left: 2px solid #086776;
+}
+.container {
+  align-items: center;
+  height: 100%;
+}
+.navbar {
+  height: 72px;
+}
+.new-button {
+  width: 36px;
+  height: 36px;
+  background: #086776;
+}
+.navbar-form > *:not(:last-child) {
+  margin-right: 12px;
+}
+.search-form .form-group input {
+  height: 36px;
+  border-radius: 9999px;
+}
+.search-form .form-group .button-container button {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  transform: translateX(-4px);
+}
+.dropdown-menu > li > a.selected,
+[data-hover-visible] .dropdown-menu > li > a.selected {
+  color: #086776;
+}
+[data-hover-visible] .navbar .navbar-brand:hover {
+  color: #086776;
+}
+.quick-launch .project-home {
+  padding: 0 16px 0 0;
+}
+/* ----------------------------
+  ページ見出し
+ ---------------------------- */
+.quick-launch .private-badge {
+  padding: 0;
+}
+/* ----------------------------
+  記事
+ ---------------------------- */
+.grid li.page-list-item a {
+  border-radius: 8px;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+.grid li.page-list-item a .header {
+  padding: 16px 16px 0 16px;
+  border-top: #086776 solid 16px;
+}
+.grid li.page-list-item a .icon {
+  padding: 12px 16px 16px 16px;
+}
+
+/* ----------------------------
+  記事ページ
+ ---------------------------- */
+.page {
+  padding: 56px 48px;
+  border-radius: 16px;
+}
+.line.line-title .text {
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+.page-menu {
+  top: 88px;
+}
